@@ -22,9 +22,9 @@ Example
   define('ALLEGRO_PASSWORD', 'Your password encoded by sha256');
   define('ALLEGRO_KEY', 'Your api key');
   define('ALLEGRO_COUNTRY', '1'); 
-  // <- country 1 = poland (more)
-  // more country code by (PL)
-  // http://allegro.pl/webapi/documentation.php/show/id,25#method-input
+  // <- country 1 = poland
+  // more country code:
+  // http://allegro.pl/webapi/documentation.php/show/id,25#method-input  (PL)
 `````
 
 3. Show example result by index.php
