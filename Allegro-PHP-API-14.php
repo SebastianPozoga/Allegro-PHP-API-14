@@ -5,6 +5,7 @@
  *
  * Wykonany przez: 
  * Sebastian Pożoga
+ * (Hostowany na: https://github.com/SebastianPozoga/Allegro-PHP-API-14 )
  * 
  * Klasa rozpowszechcniana na licencji Creative Commons 3.0 BY-SA
  * Stanowi modernizację i utwór pochodny allegrowebapi-php-class v1.1
