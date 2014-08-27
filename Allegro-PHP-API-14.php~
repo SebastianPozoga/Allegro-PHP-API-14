@@ -122,7 +122,7 @@ class AllegroWebAPI {
             'allegro_password' => ALLEGRO_PASSWORD
         );
 
-        $this->_client = new SoapClient('http://webapi.allegro.pl/uploader.php?wsdl');
+        $this->_client = new SoapClient('https://webapi.allegro.pl/uploader.php?wsdl');
     }
 
     /*     * ********************************************************************************************************

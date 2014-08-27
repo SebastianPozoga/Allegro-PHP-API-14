@@ -1919,6 +1919,19 @@ class AllegroWebAPI {
     }
 
     /**
+     * Metoda pozwala na pobranie ścieżki kategorii dla podanego w wywołaniu identyfikatora kategorii.
+     *
+     * @param array $Options
+     * @return array
+     */
+    public function GetCategoryPath($Options) {
+        $this->checkConnection();
+        return $this->_client->doGetCategoryPath(
+                        $this->_session['session-handle-part'], $Options['category-id']
+        );
+    }
+
+    /**
      * Punktacja użytkowników
      *
      * @param int $Stars
