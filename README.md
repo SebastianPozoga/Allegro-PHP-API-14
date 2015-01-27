@@ -1,3 +1,9 @@
+This version is deprecated
+==========================
+
+A new version of the library is available on https://github.com/SebastianPozoga/PHP-AllegroApi
+The version is re-write, better tested and more flexible for allegro changes. You can use the newest allegro function. I recomende use it.
+
 Allegro-PHP-API-14
 ==================
 
